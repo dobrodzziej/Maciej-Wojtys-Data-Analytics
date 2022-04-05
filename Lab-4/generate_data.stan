@@ -3,7 +3,7 @@ transformed data {
    int<lower=0> N = 100;
    real alpha = 3;
    real sigma = 1;
-   real<lower=0, upper=1> sig_prob = 0.05
+   real<lower=0, upper=1> sig_prob = 0.05;
 }
 
 generated quantities {

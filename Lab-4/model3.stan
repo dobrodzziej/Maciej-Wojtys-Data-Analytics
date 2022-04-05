@@ -8,7 +8,7 @@ data {
 parameters {
     vector[M] beta;
     real alpha;
-    real<lower=0> sigma
+    real<lower=0> sigma;
 }
 
 model {
